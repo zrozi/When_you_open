@@ -1,0 +1,80 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    position: relative;
+    overflow: hidden;
+}
+
+
+/* 문 1 */
+
+.문1 {
+    height: 43vw;
+    width: auto;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+/* 문 2 */
+
+.문2 {
+    height: 43vw;
+    width: auto;
+
+    position: absolute;
+    top: 0;
+    left: 41.2vw;
+}
+
+
+/* 문 3 */
+
+.문3 {
+    height: 43vw;
+    width: auto;
+
+    position: absolute;
+    top: 0;
+    left: 63.8vw;
+}
+
+
+/* 문 4 */
+
+.문4 {
+    height: 100vh;
+    width: auto;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    z-index: 2;
+}
+
+
+/* 복도 */
+
+.복도 {
+    position: absolute;
+
+    top: 43vw;
+    left: 0;
+
+    width: 100vw;
+    height: calc(100vh - 43vw);
+
+    object-fit: cover;
+    object-position: center;
+
+    display: block;
+}
